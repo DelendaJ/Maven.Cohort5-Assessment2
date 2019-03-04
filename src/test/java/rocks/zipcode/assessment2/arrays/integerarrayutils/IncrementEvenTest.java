@@ -20,6 +20,7 @@ public class IncrementEvenTest {
         // when
         Integer[] actual = IntegerArrayUtils.incrementEven(input);
 
+
         // then
         Assert.assertArrayEquals(expected, actual);
     }
